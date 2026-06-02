@@ -8,7 +8,9 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 # Load files
 model = pickle.load(open("svm_intent_model.pkl", "rb"))
