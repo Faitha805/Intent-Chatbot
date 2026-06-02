@@ -1,0 +1,293 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "greetings",
+        "how are you",
+        "hi there",
+        "hello there",
+        "nice to meet you",
+        "hey buddy",
+        "hey chatbot",
+        "what's up",
+        "good day"
+      ],
+      "responses": [
+        "Welcome to Kasokoso Beach. How may I assist you today?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "farewell",
+        "have a nice day",
+        "talk to you later",
+        "catch you later",
+        "i am leaving",
+        "thanks bye",
+        "see you"
+      ],
+      "responses": [
+        "Thank you for visiting. Have a wonderful day."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "much appreciated",
+        "thank you very much",
+        "great thanks",
+        "awesome thanks",
+        "thanks for your help",
+        "appreciate it",
+        "many thanks"
+      ],
+      "responses": [
+        "You're welcome."
+      ]
+    },
+
+    {
+      "tag": "location",
+      "patterns": [
+        "where are you located",
+        "where can i find you",
+        "location please",
+        "how do i get there",
+        "what is your address",
+        "where is kasokoso beach",
+        "directions to your place",
+        "where are your premises",
+        "tell me your location",
+        "where exactly are you"
+      ],
+      "responses": [
+        "Kasokoso Beach is located in Kasokoso. Please contact management for detailed directions."
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "phone number",
+        "contact information",
+        "how can i contact you",
+        "customer care number",
+        "email address",
+        "contact details",
+        "who do i call",
+        "how do i reach you",
+        "give me your contacts",
+        "customer support"
+      ],
+      "responses": [
+        "You can contact management using the official phone number and email."
+      ]
+    },
+
+    {
+      "tag": "restaurant_services",
+      "patterns": [
+        "do you have a restaurant",
+        "restaurant services",
+        "food available",
+        "can i get food there",
+        "what meals do you serve",
+        "is there a restaurant",
+        "do you sell food",
+        "can i buy lunch",
+        "do you serve dinner",
+        "is food served"
+      ],
+      "responses": [
+        "Yes, we offer restaurant services with a variety of meals and beverages."
+      ]
+    },
+
+    {
+      "tag": "restaurant_menu",
+      "patterns": [
+        "show menu",
+        "food menu",
+        "what food do you have",
+        "available meals",
+        "restaurant menu",
+        "what can i order",
+        "what dishes do you serve",
+        "meal options",
+        "foods available",
+        "what is on the menu"
+      ],
+      "responses": [
+        "Our menu includes local and international dishes."
+      ]
+    },
+
+    {
+      "tag": "restaurant_hours",
+      "patterns": [
+        "restaurant opening hours",
+        "restaurant closing time",
+        "when does the restaurant open",
+        "when does the restaurant close",
+        "restaurant hours",
+        "opening time",
+        "closing time",
+        "when are you open",
+        "operating hours",
+        "working hours"
+      ],
+      "responses": [
+        "The restaurant operates during official business hours."
+      ]
+    },
+
+    {
+      "tag": "pool_availability",
+      "patterns": [
+        "do you have a swimming pool",
+        "is swimming available",
+        "can i swim there",
+        "pool available",
+        "swimming facilities",
+        "do you offer swimming",
+        "is there a pool",
+        "can visitors swim",
+        "swimming services",
+        "pool services"
+      ],
+      "responses": [
+        "Yes, swimming pool facilities are available."
+      ]
+    },
+
+    {
+      "tag": "pool_pricing",
+      "patterns": [
+        "swimming fees",
+        "cost of swimming",
+        "pool charges",
+        "how much is swimming",
+        "swimming price",
+        "pool fee",
+        "charges for swimming",
+        "what do swimmers pay",
+        "entry fee for pool",
+        "cost of pool access"
+      ],
+      "responses": [
+        "Swimming charges depend on the current pricing schedule."
+      ]
+    },
+
+    {
+      "tag": "pool_hours",
+      "patterns": [
+        "pool opening hours",
+        "pool closing time",
+        "swimming hours",
+        "when can i swim",
+        "what time does the pool open",
+        "what time does the pool close",
+        "pool schedule",
+        "swimming schedule",
+        "pool operating hours",
+        "swimming times"
+      ],
+      "responses": [
+        "The pool operates during designated swimming hours."
+      ]
+    },
+
+    {
+      "tag": "grounds_hire",
+      "patterns": [
+        "grounds for hire",
+        "can i hire the grounds",
+        "book grounds",
+        "grounds booking",
+        "event grounds",
+        "venue hire",
+        "can i reserve the grounds",
+        "grounds reservation",
+        "outdoor venue",
+        "event venue booking"
+      ],
+      "responses": [
+        "Yes, our grounds are available for hire for various events."
+      ]
+    },
+
+    {
+      "tag": "grounds_pricing",
+      "patterns": [
+        "grounds pricing",
+        "grounds charges",
+        "hire fees",
+        "venue pricing",
+        "cost of hiring grounds",
+        "how much are the grounds",
+        "event venue cost",
+        "grounds rental fee",
+        "price for booking grounds",
+        "hire cost"
+      ],
+      "responses": [
+        "Ground hire charges depend on the event requirements and duration."
+      ]
+    },
+
+    {
+      "tag": "events",
+      "patterns": [
+        "can you host weddings",
+        "birthday parties",
+        "corporate events",
+        "special occasions",
+        "functions",
+        "events hosted",
+        "do you host meetings",
+        "conference venue",
+        "party venue",
+        "wedding venue"
+      ],
+      "responses": [
+        "We host weddings, meetings, parties, conferences and other events."
+      ]
+    },
+
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "how can i pay",
+        "payment methods",
+        "mobile money",
+        "bank transfer",
+        "card payment",
+        "payment options",
+        "do you accept cards",
+        "how do i make payment",
+        "ways to pay",
+        "accepted payments"
+      ],
+      "responses": [
+        "We support multiple payment methods including commonly accepted digital and cash payments."
+      ]
+    }
+  ]
+}       
