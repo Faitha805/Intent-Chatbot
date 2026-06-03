@@ -7,18 +7,18 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
-# nltk.download('punkt')
-# nltk.download('wordnet')
-# nltk.download('omw-1.4')
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+# try:
+#     nltk.data.find('tokenizers/punkt')
+# except LookupError:
+#     nltk.download('punkt')
 
-try:
-    nltk.data.find('tokenizers/punkt_tab')
-except LookupError:
-    nltk.download('punkt_tab')
+# try:
+#     nltk.data.find('tokenizers/punkt_tab')
+# except LookupError:
+#     nltk.download('punkt_tab')
 
 # Load files
 model = pickle.load(open("svm_intent_model.pkl", "rb"))
